@@ -7,8 +7,8 @@ Run experiments to measure heartbeat cost on the IC.
 ## Summary
 
 - Experiments run on canisters written in Rust and Motoko
-  - Empty canisters `*_empty` with only `canister_heartbeat` exported, time is measured outside of `dfx` call
-  - Additional code to measure parameters inside the canister
+  - Empty canisters `*_empty`, time is measured outside of `dfx` call
+  - Non-empty canisters with measurements done inside the canister
 - Results are based on ~15 minutes of measurements
 
 | Experiment | Hearbeat Rate | Burn Rate per Sec | Burn Rate per Year | Code | Data |
