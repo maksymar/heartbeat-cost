@@ -9,10 +9,10 @@ Run experiments to measure heartbeat cost on the IC.
 - Experiments run on canisters written in Rust and Motoko
 - Results are based on ~15 minutes of measurements
 
-| language | hearbeat rate | burn rate per sec | burn rate per year | data |
-| :----: | :----: | :----: | :----: | :----: |
-| rust | 703 ms | ~0.86 MC | ~27 TC | [data](./rust/data.csv) |
-| motoko | 706 ms | ~2.94 MC | ~93 TC | [data](./motoko/data.csv) |
+| Language | Hearbeat Rate | Burn Rate per Sec | Burn Rate per Year | Code | Data |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| Rust | 703 ms | ~0.86 MC | ~27 TC | [code](./rust/src/rust_backend/src/lib.rs) | [data](./rust/data.csv) |
+| Motoko | 706 ms | ~2.94 MC | ~93 TC | [code](./motoko/src/motoko_backend/main.mo) | [data](./motoko/data.csv) |
 
 ## Steps
 
