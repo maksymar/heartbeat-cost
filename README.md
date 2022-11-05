@@ -43,10 +43,10 @@ $ dfx stop
 ## Experiments `rust_empty`, `motoko_empty`
 
 ```bash
-# Enter either motoko or rust folder.
-$ cd motoko
+# Enter either motoko_empty or rust_empty folder.
+$ cd motoko_empty
 # or
-$ cd rust
+$ cd rust_empty
 
 # Start DFX and deploy a canister.
 $ dfx start --background
