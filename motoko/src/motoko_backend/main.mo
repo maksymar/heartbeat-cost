@@ -27,6 +27,7 @@ actor {
     var burn_rate_bc_year = (60 * 60 * 24 * 365 * burn_rate) / 1_000_000_000;
 
     var t = "";
+    t := Text.concat(t, "\n lang : motoko");
     t := Text.concat(t, Text.concat("\n time, ms             : ", Int.toText(time)));
     t := Text.concat(t, Text.concat("\n heartbeat count      : ", Int.toText(count)));
     t := Text.concat(t, Text.concat("\n heartbeat rate, ms   : ", Int.toText(heartbeat_rate)));

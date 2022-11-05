@@ -30,6 +30,7 @@ fn report() -> String {
 
     String::from(format!(
         "
+        lang                 : rust
         time, ms             : {time}
         heartbeat count      : {count}
         heartbeat rate, ms   : {heartbeat_rate}
