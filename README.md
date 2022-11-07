@@ -11,6 +11,17 @@ Run experiments to measure heartbeat cost on the IC.
   - Non-empty canisters with measurements done inside the canister
 - Results are based on ~15 minutes of measurements
 
+### Adjusted to production heartbeat rate
+
+| Experiment | Hearbeat Rate | Burn Rate per Sec | Burn Rate per Year |
+| :----: | :----: | :----: | :----: |
+| `rust` | 917 ms | ~0.65 MC | ~21 TC |
+| `motoko` | 917 ms | ~2.24 MC | ~71 TC |
+
+### Local dfx heartbeat rate
+
+Note: non-production `dfx` runs a single node which causes reduced heartbeat rate and elevated costs.
+
 | Experiment | Hearbeat Rate | Burn Rate per Sec | Burn Rate per Year | Code | Data |
 | :----: | :----: | :----: | :----: | :----: | :----: |
 | `rust` | 703 ms | ~0.86 MC | ~27 TC | [code](./rust/src/rust_backend/src/lib.rs) | [data](./rust/data.csv) |
